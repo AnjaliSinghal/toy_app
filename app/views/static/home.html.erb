@@ -1,0 +1,20 @@
+<% provide(:title, "Home") %>
+<!-- <h1>
+	Static home page
+	<%#=image_tag("rails.jpeg")%>
+</h1> -->
+
+
+ <!--  <div id="pageone" data-role="main" class="ui-content"> -->
+   
+    <a href="#myPopup" data-rel="popup" >
+     <%=image_tag("rails.jpeg", width: '200', alt: "Rails logo") %>
+     </a>
+    <div data-role="popup" id="myPopup">
+      
+      <a href="#pageone" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><%=image_tag("rails.jpeg", height: '400',width: '400',alt: "Rails logo")%>
+    </div>
+ <!--  </div> -->
+
+
+
